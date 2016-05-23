@@ -153,6 +153,20 @@
 		C9FEC9F41CF2958E00F0AD18 /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D421D1C6A673E006B91B5 /* AWSXMLDictionary.m */; };
 		C9FEC9F51CF2959400F0AD18 /* AWSXMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D42211C6A673E006B91B5 /* AWSXMLWriter.h */; };
 		C9FEC9F61CF2959800F0AD18 /* AWSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D42221C6A673E006B91B5 /* AWSXMLWriter.m */; };
+		C9FECA201CF2A90E00F0AD18 /* AWSS3.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9BF1C6A7C2D0060793F /* AWSS3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA211CF2A90E00F0AD18 /* AWSS3Model.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9D51C6A7C5E0060793F /* AWSS3Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA221CF2A90E00F0AD18 /* AWSS3PreSignedURL.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9D71C6A7C5E0060793F /* AWSS3PreSignedURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA231CF2A90E00F0AD18 /* AWSS3Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9D91C6A7C5E0060793F /* AWSS3Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA241CF2A90E00F0AD18 /* AWSS3Service.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9DB1C6A7C5E0060793F /* AWSS3Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA251CF2A90E00F0AD18 /* AWSS3TransferManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9DD1C6A7C5E0060793F /* AWSS3TransferManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA261CF2A90E00F0AD18 /* AWSS3TransferUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9DE9DF1C6A7C5E0060793F /* AWSS3TransferUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FECA271CF2A91900F0AD18 /* AWSS3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9D61C6A7C5E0060793F /* AWSS3Model.m */; };
+		C9FECA281CF2A91900F0AD18 /* AWSS3PreSignedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9D81C6A7C5E0060793F /* AWSS3PreSignedURL.m */; };
+		C9FECA291CF2A91900F0AD18 /* AWSS3Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9DA1C6A7C5E0060793F /* AWSS3Resources.m */; };
+		C9FECA2A1CF2A91900F0AD18 /* AWSS3Service.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9DC1C6A7C5E0060793F /* AWSS3Service.m */; };
+		C9FECA2B1CF2A91900F0AD18 /* AWSS3TransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9DE1C6A7C5E0060793F /* AWSS3TransferManager.m */; };
+		C9FECA2C1CF2A91900F0AD18 /* AWSS3TransferUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DE9E01C6A7C5E0060793F /* AWSS3TransferUtility.m */; };
+		C9FECA2D1CF2AA5500F0AD18 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FEC96B1CF2910600F0AD18 /* AWSCore.framework */; };
 		CE0D41701C6A66E5006B91B5 /* AWSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D416F1C6A66E5006B91B5 /* AWSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0D417C1C6A66E5006B91B5 /* AWSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D417B1C6A66E5006B91B5 /* AWSCoreTests.m */; };
 		CE0D42231C6A673E006B91B5 /* AWSCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D41851C6A673E006B91B5 /* AWSCredentialsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1502,6 +1516,8 @@
 /* Begin PBXFileReference section */
 		C9FEC96B1CF2910600F0AD18 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FEC96F1CF2910600F0AD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FECA181CF2A15800F0AD18 /* AWSS3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSS3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FECA1C1CF2A15800F0AD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0D416D1C6A66E5006B91B5 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D416F1C6A66E5006B91B5 /* AWSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSCore.h; sourceTree = "<group>"; };
 		CE0D41711C6A66E5006B91B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2259,6 +2275,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9FECA141CF2A15800F0AD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FECA2D1CF2AA5500F0AD18 /* AWSCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE0D41691C6A66E5006B91B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2738,6 +2762,14 @@
 			path = "AWSCore tvOS";
 			sourceTree = "<group>";
 		};
+		C9FECA191CF2A15800F0AD18 /* AWSS3 tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9FECA1C1CF2A15800F0AD18 /* Info.plist */,
+			);
+			path = "AWSS3 tvOS";
+			sourceTree = "<group>";
+		};
 		CE0D41531C6A66A9006B91B5 = {
 			isa = PBXGroup;
 			children = (
@@ -2800,6 +2832,7 @@
 				CE9DEA8E1C6A7F460060793F /* AWSSQS */,
 				CE9DEA9A1C6A7F460060793F /* AWSSQSTests */,
 				CE5604DC1C6BC9B200B4E00B /* AWSSQSUnitTests */,
+				C9FECA191CF2A15800F0AD18 /* AWSS3 tvOS */,
 				CE0D415E1C6A66AA006B91B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2866,6 +2899,7 @@
 				CEA316A11C93A0EA002A9F58 /* AWSCognitoIdentityProviderTests.xctest */,
 				CEA316C01C93A415002A9F58 /* AWSCognitoIdentityProviderUnitTests.xctest */,
 				C9FEC96B1CF2910600F0AD18 /* AWSCore.framework */,
+				C9FECA181CF2A15800F0AD18 /* AWSS3.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4318,6 +4352,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9FECA151CF2A15800F0AD18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FECA221CF2A90E00F0AD18 /* AWSS3PreSignedURL.h in Headers */,
+				C9FECA251CF2A90E00F0AD18 /* AWSS3TransferManager.h in Headers */,
+				C9FECA211CF2A90E00F0AD18 /* AWSS3Model.h in Headers */,
+				C9FECA261CF2A90E00F0AD18 /* AWSS3TransferUtility.h in Headers */,
+				C9FECA231CF2A90E00F0AD18 /* AWSS3Resources.h in Headers */,
+				C9FECA241CF2A90E00F0AD18 /* AWSS3Service.h in Headers */,
+				C9FECA201CF2A90E00F0AD18 /* AWSS3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE0D416A1C6A66E5006B91B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -4734,6 +4782,24 @@
 			name = "AWSCore tvOS";
 			productName = "AWSCore tvOS";
 			productReference = C9FEC96B1CF2910600F0AD18 /* AWSCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9FECA171CF2A15800F0AD18 /* AWSS3 tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FECA1D1CF2A15800F0AD18 /* Build configuration list for PBXNativeTarget "AWSS3 tvOS" */;
+			buildPhases = (
+				C9FECA131CF2A15800F0AD18 /* Sources */,
+				C9FECA141CF2A15800F0AD18 /* Frameworks */,
+				C9FECA151CF2A15800F0AD18 /* Headers */,
+				C9FECA161CF2A15800F0AD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWSS3 tvOS";
+			productName = "AWSS3 tvOS";
+			productReference = C9FECA181CF2A15800F0AD18 /* AWSS3.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE0D416C1C6A66E5006B91B5 /* AWSCore */ = {
@@ -5829,6 +5895,9 @@
 					C9FEC96A1CF2910600F0AD18 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					C9FECA171CF2A15800F0AD18 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					CE0D416C1C6A66E5006B91B5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -6065,6 +6134,7 @@
 				CE9E501A1C72C19800B60FD7 /* AWSMobileAnalyticsLegacyTests */,
 				CE56048F1C6BC96500B4E00B /* AWSMobileAnalyticsUnitTests */,
 				CE9DE9BC1C6A7C2D0060793F /* AWSS3 */,
+				C9FECA171CF2A15800F0AD18 /* AWSS3 tvOS */,
 				CE9DE9C51C6A7C2E0060793F /* AWSS3Tests */,
 				CE56049E1C6BC97600B4E00B /* AWSS3UnitTests */,
 				CE9DE9FC1C6A7DFF0060793F /* AWSSES */,
@@ -6090,6 +6160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FEC9C71CF2946900F0AD18 /* strip-frameworks.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FECA161CF2A15800F0AD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6611,6 +6688,19 @@
 				C9FEC98D1CF2939800F0AD18 /* AWSCognitoIdentityModel.m in Sources */,
 				C9FEC9CD1CF2950E00F0AD18 /* AWSSerialization.m in Sources */,
 				C9FEC98E1CF2939800F0AD18 /* AWSCognitoIdentityResources.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FECA131CF2A15800F0AD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FECA291CF2A91900F0AD18 /* AWSS3Resources.m in Sources */,
+				C9FECA2B1CF2A91900F0AD18 /* AWSS3TransferManager.m in Sources */,
+				C9FECA271CF2A91900F0AD18 /* AWSS3Model.m in Sources */,
+				C9FECA281CF2A91900F0AD18 /* AWSS3PreSignedURL.m in Sources */,
+				C9FECA2A1CF2A91900F0AD18 /* AWSS3Service.m in Sources */,
+				C9FECA2C1CF2A91900F0AD18 /* AWSS3TransferUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7682,6 +7772,48 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amazonaws.sdk.ios.AWSCore-tvOS";
 				PRODUCT_NAME = AWSCore;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		C9FECA1E1CF2A15800F0AD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "AWSS3 tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazonaws.sdk.ios.AWSS3-tvOS";
+				PRODUCT_NAME = AWSS3;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		C9FECA1F1CF2A15800F0AD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "AWSS3 tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amazonaws.sdk.ios.AWSS3-tvOS";
+				PRODUCT_NAME = AWSS3;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -9763,6 +9895,14 @@
 			buildConfigurations = (
 				C9FEC9701CF2910600F0AD18 /* Debug */,
 				C9FEC9711CF2910600F0AD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9FECA1D1CF2A15800F0AD18 /* Build configuration list for PBXNativeTarget "AWSS3 tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FECA1E1CF2A15800F0AD18 /* Debug */,
+				C9FECA1F1CF2A15800F0AD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
